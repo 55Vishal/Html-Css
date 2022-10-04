@@ -1,0 +1,9 @@
+.border{
+    border: 2px solid red;
+    border-radius: 20px;
+    border-color: red;
+    text-align: center;
+    border-style: double;
+    margin: 50px;
+    padding: 50px;
+}
