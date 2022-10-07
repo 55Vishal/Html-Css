@@ -6,13 +6,18 @@
 header{
     background-color: grey;
     height: 70px;
+    box-sizing: border-box;
 }
 .content{
     background-color: black;
     color: white;
     height: 85vh;
+    box-sizing: border-box;
 }
 footer{
     background-color: rgba(109, 198, 222, 0.813);
+    text-align: center;
+    box-sizing: border-box;
 }
+
 </style>
