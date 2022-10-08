@@ -1,0 +1,11 @@
+p{
+    background-color: black;
+    color: white;
+    width: 535px;
+    height: 525px;
+    /* text-decoration: underline; */
+    text-transform: capitalize;
+    font-weight: 200;
+    line-height: 33px;
+    font-family: 'Times New Roman', Times, serif;
+}
