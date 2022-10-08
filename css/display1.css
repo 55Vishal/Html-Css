@@ -1,0 +1,10 @@
+.box1{
+    background-color: red;
+     height: 234px;
+    width: 431px; 
+    text-align: center;
+}
+.box2{
+    background-color: blue;
+   display: inline;
+}
