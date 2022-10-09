@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+li{
+    display: inline;
+}
+p{
+    border: 2px solid grey;
+}
+.container{
+    background-color: aqua;
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+    border: 2px solid black;
+}
+.box1{
+    background-color: chartreuse;
+    width: 30vh;
+    height: 30vh;
+    text-align: center;
+    border: 2px solid goldenrod;
+}
+.box2{
+    background-color: rgb(74, 135, 173);
+    width: 30vh;
+    height: 30vh;
+    text-align: center;
+    border: 2px solid goldenrod;
+    position: relative;
+    top: -222px;
+    left: 700px;
+}
+
