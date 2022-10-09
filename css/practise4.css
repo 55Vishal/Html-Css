@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+.right{
+    height: 60vh;
+     background-color: green;
+     display: inline-block;
+     width: 50%;
+     height: 80vh;   
+}
+.left{
+    height: 60vh;
+    background-color:red ;
+    display: inline-block;
+    width: 50%;
+    height: 80vh;
+}
+.end{
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    height: 50px;
+}
