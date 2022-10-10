@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+}
+li{
+    font-style: none;
+    display: inline;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 70px;
+    padding: auto;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px 30px;
+    padding: 3px;
+    font-size: 1vw;
+}
+.container{
+    background-color: rgb(214, 214, 142);
+
+}
+.left{
+    float: left;
+    background-color: rgb(176, 91, 91);
+    height: 80vh;
+    width: 40vw;
+}
+.right{
+    float: right;
+    background-color: rgb(92, 92, 192);
+    height: 80vh;
+    width: 40vw;
+}
