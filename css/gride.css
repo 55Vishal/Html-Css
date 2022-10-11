@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    background-color: rgb(0, 255, 140);
+    grid-row-gap: 9px;
+    grid-column-gap: 9px;
+    grid-template-columns:auto auto auto ;
+}
+.item{
+    background-color: rgb(139, 130, 177);
+    border:2px solid black;
+    color: white;
+}
