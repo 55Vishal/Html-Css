@@ -1,0 +1,20 @@
+.container{
+    background-color: rgb(240, 246, 62);
+    height: 455px;
+}
+.box{
+    border: 2px solid black;
+    display: inline-block;
+}
+
+img{
+    
+    width: 445px;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
+
+img:hover{
+    width: 60px;
+}
