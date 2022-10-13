@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 122px;
+    background-color: black;
+}
+main{
+    height: 800px;
+    background-color: blue;
+}
+.progress{
+    height: 3px;
+    background-color: red;
+    animation: load 1s ease-in-out 1;
+}
+@keyframes load {
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 60vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(100deg);
+    }
+}
+img{
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 350px;
+    animation: rotate 1s ease-in  infinite;
+}
