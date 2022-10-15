@@ -12,7 +12,15 @@
     justify-content: center;
     align-items: center;
 }
-
+footer{
+    font-weight: bolder;
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif
+}
 header{
     font-weight: bolder;
     background: var(--main-bg-color);
@@ -20,54 +28,17 @@ header{
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif
 }
-nav{
-    display: flex;
-}
-.logo{
-    display: flex;
-    align-items: center;
-}
-.logo img{
-    width: 88px;
-    padding: 0 25px;
-}
-
 nav ul{
-     height: 58px;
+     height: 60px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 nav ul li{
-    list-style: none; 
+    list-style: none;
     padding: 0 23px;
 }
 nav ul li a{
     color: white;
     text-decoration: none;
-}
-nav ul li a:hover{
-    color: black;
-    font-weight:bold ;
-}
-.search{
-    display: flex;
-    align-items: center;
-}
-.search input{
-    width: 500px;
-    height: 25px;
-}
-.container{
-    min-height: 80vh;
-}
-
-footer{
-    /* font-weight: bolder; */
-    height: 12vh;
-    background-color: var(--main-bg-color);
-    color: white;
-    font-family: 'Baloo Bhai 2', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Roboto', sans-serif
 }
