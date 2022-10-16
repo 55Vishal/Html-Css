@@ -70,7 +70,7 @@ nav ul li a:hover {
 
 .search input {
     width: 500px;
-    height: 25px;
+    height: 2vw;
     margin: 0 15px 0 56px;
 }
 
@@ -96,6 +96,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     margin: 11px auto;
+    overflow: hidden;
 }
 
 .slider img {
