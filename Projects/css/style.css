@@ -66,12 +66,16 @@ nav ul li a:hover {
 .search {
     display: flex;
     align-items: center;
+    margin: 11px 67px;
+    padding: 0px 23px;
 }
 
 .search input {
-    width: 500px;
+    width: 30vw;
     height: 2vw;
     margin: 0 15px 0 56px;
+    padding: 0px 18px;
+    border-radius: 8px;
 }
 
 .btn {
@@ -84,8 +88,8 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    font-weight: bold;
-    color: rgb(76, 72, 72);
+    font-weight: 10px;
+    color: black;
 }
 
 .container {
@@ -96,17 +100,17 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     margin: 11px auto;
-    overflow:scroll;
+    overflow: hidden;
 }
 
 .slider img {
-    width: px;
+    width: 1300px;
     height: 300px;
 }
 
 .card {
     max-width: 91vw;
-    margin:40px auto;
+    margin: 40px auto;
 }
 
 .card-item {
@@ -117,8 +121,8 @@ nav ul li a:hover {
 }
 
 .card-item img {
-    width: 300px;
-    height: 160px;
+    width: 217px;
+    height: 200px;
 }
 
 .card h2 {
