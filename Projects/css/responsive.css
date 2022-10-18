@@ -1,0 +1,37 @@
+@media screen and (max-width:1000px) {
+    body {
+        background-color: rgb(247, 246, 246);
+    }
+
+    .slider img {
+        width: 96vw;
+        height: 203px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 15px 0;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .search input {
+        width: 30vw;
+        height: 2vw;
+        margin: 0 15px 0 56px;
+        padding: 9px 18px;
+        border-radius: 2px;
+    }
+}
