@@ -111,6 +111,7 @@ nav ul li a:hover {
 .card {
     max-width: 91vw;
     margin: 40px auto;
+    overflow: scroll;
 }
 
 .card-item {
@@ -133,6 +134,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     overflow: scroll;
+    flex-wrap:nowrap
 }
 
 .lines {
