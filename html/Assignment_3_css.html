@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            justify-content: flex-start;
+            text-align: center;
+            border-top: 7px solid black;
+            border-left: 3px solid black;
+            width: 150px;
+            box-sizing: border-box;
+        }
+
+        .pokemon {
+            margin-left: 8px;
+            background-color: #eae4e4;
+            margin-top: 5px;
+            width: 110px;
+            border-radius: 6px;
+            box-shadow: -6px -4px 2px #d4cfcf;
+        }
+
+        span {
+            display: inline-block;
+            justify-content: center;
+            background-color: #d0cbcb;
+            width: 27px;
+            border-radius: 44px;
+        }
+
+        img {
+            background-color: white;
+            border-radius: 92px;
+            margin-top: 4px;
+        }
+        .number{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display:flex;">
+        <div class="pokemon">
+            <div class="img-container">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png" alt="${name}">
+            </div>
+            <div class="info">
+                <span class="number">#2</span>
+                <h3 class="name">Babausaur</h3>
+                <small class="type">Type: <span>fire</span> </small>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
